@@ -1,0 +1,41 @@
+{% extends "base.html"  %}
+{% block title %}Студенты{% endblock %}
+
+{% block head %}
+{{ super() }}
+<style>
+    .gradient-custom {
+        background: linear-gradient(-180deg, #630796 0%, #984DCA 100%);
+        /*background: linear-gradient(-180deg, #1e1348 0%, #4b6abf 100%);*/
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Студенты</h1>
+
+<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    {% for student in students %}
+    <div class="col ">
+        <div  class="gradient-custom card card-cover h-100 overflow-hidden text-white  rounded-5 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2>{{student.name}}</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                        <a href="/students/{{loop.index - 1}}" class="btn" style="background: #ffffff">открыть</a>
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                        <small>#{{loop.index}}</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <small>{{ student.group }}</small>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

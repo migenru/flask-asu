@@ -1,0 +1,22 @@
+{% extends "base.html"  %}
+{% block title %}Группы{% endblock %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<h1>Группы</h1>
+
+{% for key, value in info_group.items() %}
+    <h4>Группа {{ key }}. Кол-во студентов: {{ value }}</h4>
+        <ul>
+            {% for student in data %}
+                {% if student.group == key %}
+                    <li>{{ student.name }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+{% endfor %}
+
+{% endblock %}

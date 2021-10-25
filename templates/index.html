@@ -1,0 +1,32 @@
+{% extends "base.html"  %}
+{% block title %}Главная{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://python-scripts.com/wp-content/uploads/2019/05/flask-vs-django.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">{{ header}}</h1>
+            <p class="lead">{{ description|safe }}</p>
+        </div>
+    </div>
+<h2 class="pb-2 border-bottom">{{ sub_menu }}</h2>
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    {% for item in items %}
+    <div class="col d-flex align-items-start">
+        <div>
+            <h2>{{ item.header }}</h2>
+            <p>{{ item.description }}</p>
+            <a href="{{ item.link }}" class="btn btn-success">
+                {{ item.link_name }}
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
