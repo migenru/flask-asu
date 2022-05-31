@@ -1,112 +1,12 @@
 data = [
     {
-        'name': 'Бабин Андрей',
+        'name': 'Иванов Андрей',
         'group': '3ПМ',
-        'email': 'maxiharser87@gmail.com'},
+        'email': 'mail2@gmail.com'},
     {
-        'name': 'Верденко Алексей',
+        'name': 'Смирнов Алексей',
         'group': '3ПМ',
-        'email': 'verdenko777@gmail.com'},
-    {
-        'name': 'Караваева Юлиана',
-        'group': '3ПМ',
-        'email': 'yuliana.vladimirovna.02@bk.ru'},
-    {
-        'name': 'Кардашов Георгий',
-        'group': '3ПМ',
-        'email': 'fresh.man.13@mail.ru'},
-    {
-        'name': 'Ларшин Дмитрий',
-        'group': '3ПМ',
-        'email': 'dmitriy_game@mail.ru'},
-    {
-        'name': 'Никитенко Владислав',
-        'group': '3ПМ',
-        'email': 'vlad-nikitienko@mail.ru'},
-    {
-        'name': 'Пархоменко Ольга',
-        'group': '3ПМ',
-        'email': 'olya200olya20@gmail.com'},
-    {
-        'name': 'Решетников Максим',
-        'group': '3ПМ',
-        'email': '20maximilianus01@gmail.com'},
-    {
-        'name': 'Свистунова Виктория',
-        'group': '3ПМ',
-        'email': 'kot.25573@gmail.com'},
-    {
-        'name': 'Апальков Артемий',
-        'group': '3ИС',
-        'email': 'dtst13@mail.ru'},
-    {
-        'name': 'Бобкова Виолетта',
-        'group': '3ИС',
-        'email': 'vio1etta99@yandex.ru'},
-    {
-        'name': 'Злобина Олеся',
-        'group': '3ИС',
-        'email': 'olesiazlobina2001@gmail.com'},
-    {
-        'name': 'Науменко Виктор',
-        'group': '3ИС',
-        'email': 'naum.viktor@mail.ru'},
-    {
-        'name': 'Хартомацидис Павел',
-        'group': '3ИС',
-        'email': 'pashart99@gmail.com'},
-    {
-        'name': 'Абази Фатима',
-        'group': '4ИС',
-        'email': 'fatimabazi@mail.ru'},
-    {
-        'name': 'Аббасов Абрек',
-        'group': '4ИС',
-        'email': 'abrek.abbasov@icloud.com'},
-    {
-        'name': 'Азангуим Ндонгмо Ларри Нельсон'
-        ,	'group': '4ИС'
-        , 'email': 'nelsonazanguim@yahoo.fr'},
-    {
-        'name': 'Арашуков Расул',
-        'group': '4ИС',
-        'email': 'rarashuckov@mail.ru'},
-    {
-        'name': 'Ачмизов Алий',
-        'group': '4ИС',
-        'email': 'rita.achmizova@mail.ru'},
-    {
-        'name': 'Гаврилова Валерия',
-        'group': '4ИС',
-        'email': 'valeria040398@gmail.com'},
-    {
-        'name': 'Жегульский Валерий',
-        'group': '4ИС',
-        'email': 'mr.jegulsky2013@yandex.ru'},
-    {
-        'name': 'Красненко Дмитрий',
-        'group': '4ИС',
-        'email': 'nihilietzche@gmail.com'},
-    {
-        'name': 'Кустова Светлана',
-        'group': '4ИС',
-        'email': 'custova.svetlana@gmail.com'},
-    {
-        'name': 'Савин Алексей',
-        'group': '4ИС',
-        'email': 'ACROSS8@yandex.ru'},
-    {
-        'name': 'Сисохо абдулла',
-        'group': '4ИС',
-        'email': 'absissoho@mail.ru'},
-    {
-        'name': 'Терехов Кирилл',
-        'group': '4ИС',
-        'email': 'terekhov-kirill00@mail.ru'},
-    {
-        'name': 'Хагур Айдамир',
-        'group': '4ИС',
-        'email': 'aidamir.khagur@gmail.com'},
+        'email': 'mail@gmail.com'},
 ]
 
 news = [
